@@ -1,0 +1,164 @@
+.Screen1 {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #6468A6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+}
+
+.App-header2 {
+  background-color: #ABC9BC;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #101010;
+}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 15%;
+  background-color: #8183C0;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.main-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 15%;
+  width: 70%;
+  max-width: calc(100% - 40px);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.claimTable {
+  border: 1px solid #968e8e
+}
+.claimTable table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.claimTable th, .claimTable td {
+  border: 1px solid #968e8e;
+  padding: 8px;
+  text-align: left;
+}
+
+
+.patientPayText{
+  color: #9C1BBE;
+}
+
+.selected {
+  background-color: #C3F2BC;
+  color: #000;
+  font-weight: bold;
+  border: 2px solid #D625D8;
+}
+
+
+.currentClaimInfo,
+.yearClaimInfo {
+  flex: 1;
+  width: 50%;
+}
+
+.yearClaimInfo{
+  margin-top: 50px;
+  margin-left: 40px;
+  border: 4px solid #D625D8;
+  background-color: #C3F2BC;
+  text-align: center;
+}
+
+.flagValue{
+  color: red;
+}
+
+.goodValue{
+  color: #be00e8;
+}
+
+.login-info {
+  border: 2px solid #2C0934;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input-group label {
+  margin-bottom: 10px;
+}
+
+.input-field {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2C0934;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #9C1BBE;
+}
